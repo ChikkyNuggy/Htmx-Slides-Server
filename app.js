@@ -4,7 +4,7 @@ import todoRouter from "./Routers/todo.js"
 
 const app = express();
 const corsOptions = {
-    origin: 'http://localhost:8000',
+    origin: 'https://htmx.henrivanpuyvelde.ikdoeict.be',
 }
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
